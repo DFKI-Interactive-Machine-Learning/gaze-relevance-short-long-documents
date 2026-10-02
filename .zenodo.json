@@ -1,0 +1,61 @@
+{
+  "title": "gaze-relevance: perceived text relevance from eye movements on short and long documents",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "license": "GPL-3.0-only",
+  "description": "Code accompanying the article 'A Comparative Analysis of Gaze-Based Representations for Perceived Text Relevance Estimation Across Short and Long Documents' (Scientific Reports). A fully documented Jupyter notebook downloads the public gazeRE eye-tracking dataset and reproduces all feature-based results: extraction of the 17 gaze features with the official gazeRE code, participant fold assignments, nested algorithm selection, the 3-second visit filter, participant-disjoint transfer from short (g-REL) to long (GoogleNQ) documents with per-reader normalisation, feature analyses (permutation importance, SHAP, PCA), generalisation to unseen documents, and corrected statistical tests. A separate script reproduces the VTNet and VGG19 analyses on a GPU. The code builds on the gazeRE dataset repository (data loader, feature extraction) and the GNN-Scanpath-Analysis-ICMI2024 repository (generation of the image representations); the eye-tracking data are not redistributed and are downloaded from the gazeRE repository.",
+  "creators": [
+    {
+      "name": "Mohamed Selim, Abdulrahman",
+      "affiliation": "German Research Center for Artificial Intelligence (DFKI)"
+    },
+    {
+      "name": "Bhatti, Omair Shahzad",
+      "affiliation": "German Research Center for Artificial Intelligence (DFKI)"
+    },
+    {
+      "name": "Conati, Cristina",
+      "affiliation": "University of British Columbia"
+    },
+    {
+      "name": "Barz, Michael",
+      "affiliation": "German Research Center for Artificial Intelligence (DFKI)"
+    },
+    {
+      "name": "Sonntag, Daniel",
+      "affiliation": "German Research Center for Artificial Intelligence (DFKI)"
+    }
+  ],
+  "keywords": [
+    "eye tracking",
+    "perceived relevance",
+    "reading",
+    "gaze features",
+    "transfer learning",
+    "gazeRE"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/DFKI-Interactive-Machine-Learning/gazeRE-dataset",
+      "relation": "requires",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.3389/fcomp.2021.808507",
+      "relation": "references",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/DFKI-Interactive-Machine-Learning/GNN-Scanpath-Analysis-ICMI2024",
+      "relation": "isDerivedFrom",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.1145/3678957.3685736",
+      "relation": "references",
+      "resource_type": "publication-conferencepaper",
+      "scheme": "doi"
+    }
+  ]
+}

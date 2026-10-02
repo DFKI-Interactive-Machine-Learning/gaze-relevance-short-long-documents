@@ -1,0 +1,12 @@
+# Everything needed for notebooks/gaze_relevance_analysis.ipynb (tested with Python 3.13.4).
+# scikit-learn is pinned on purpose: the participant folds of StratifiedGroupKFold differ between versions.
+scikit-learn==1.9.1
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+statsmodels>=0.14
+matplotlib>=3.8
+shap>=0.46
+jupyterlab>=4.0
+nbconvert>=7.0
+ipykernel>=6.0

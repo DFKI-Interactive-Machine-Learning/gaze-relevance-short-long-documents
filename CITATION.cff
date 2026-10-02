@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below and the gazeRE dataset."
+title: "gaze-relevance: perceived text relevance from eye movements on short and long documents"
+version: 1.0.0
+license: GPL-3.0-only
+repository-code: "https://github.com/DFKI-Interactive-Machine-Learning/gaze-relevance-short-long-documents"
+doi: 10.5281/zenodo.23103752
+authors:
+  - {given-names: Abdulrahman, family-names: Mohamed Selim, affiliation: "German Research Center for Artificial Intelligence (DFKI)"}
+  - {given-names: Omair Shahzad, family-names: Bhatti, affiliation: "German Research Center for Artificial Intelligence (DFKI)"}
+  - {given-names: Cristina, family-names: Conati, affiliation: "University of British Columbia"}
+  - {given-names: Michael, family-names: Barz, affiliation: "German Research Center for Artificial Intelligence (DFKI)"}
+  - {given-names: Daniel, family-names: Sonntag, affiliation: "German Research Center for Artificial Intelligence (DFKI)"}
+preferred-citation:
+  type: article
+  title: "A Comparative Analysis of Gaze-Based Representations for Perceived Text Relevance Estimation Across Short and Long Documents"
+  journal: "Scientific Reports"
+  authors:
+    - {given-names: Abdulrahman, family-names: Mohamed Selim}
+    - {given-names: Omair Shahzad, family-names: Bhatti}
+    - {given-names: Cristina, family-names: Conati}
+    - {given-names: Michael, family-names: Barz}
+    - {given-names: Daniel, family-names: Sonntag}
+references:
+  - type: article
+    title: "Implicit Estimation of Paragraph Relevance from Eye Movements"
+    journal: "Frontiers in Computer Science"
+    year: 2021
+    doi: 10.3389/fcomp.2021.808507
+    authors:
+      - {given-names: Michael, family-names: Barz}
+      - {given-names: Omair Shahzad, family-names: Bhatti}
+      - {given-names: Daniel, family-names: Sonntag}
+  - type: conference-paper
+    title: "Perceived Text Relevance Estimation Using Scanpaths and GNNs"
+    collection-title: "Proceedings of the 26th International Conference on Multimodal Interaction (ICMI '24)"
+    year: 2024
+    doi: 10.1145/3678957.3685736
+    repository-code: "https://github.com/DFKI-Interactive-Machine-Learning/GNN-Scanpath-Analysis-ICMI2024"
+    authors:
+      - {given-names: Abdulrahman, family-names: Mohamed Selim}
+      - {given-names: Omair Shahzad, family-names: Bhatti}
+      - {given-names: Michael, family-names: Barz}
+      - {given-names: Daniel, family-names: Sonntag}

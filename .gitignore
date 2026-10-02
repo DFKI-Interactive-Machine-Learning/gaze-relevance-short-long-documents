@@ -1,0 +1,13 @@
+# downloaded data and generated output
+data/*
+!data/README.md
+results/
+.cache/
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store

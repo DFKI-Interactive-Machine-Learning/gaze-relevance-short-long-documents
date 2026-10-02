@@ -1,0 +1,5 @@
+# Additionally needed for scripts/run_neural_models.py (tested with torch 2.14.1, torchvision 0.29.1).
+-r requirements.txt
+torch>=2.5
+torchvision>=0.20
+pillow>=10

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gaze-relevance"
+version = "1.0.0"
+description = "Perceived text relevance from eye movements on short and long documents (gazeRE)"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = ["scikit-learn==1.9.1", "numpy>=2.0", "pandas>=2.2", "scipy>=1.13", "statsmodels>=0.14", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+shap = ["shap>=0.46"]
+neural = ["torch>=2.5", "torchvision>=0.20", "pillow>=10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
